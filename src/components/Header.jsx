@@ -6,10 +6,10 @@ const Header = () => {
       <h1 className='logo p-2 text-[2rem] font-bold cursor-pointer text-white'>LOJA<span className='text-[#95ff00]'>GAMER</span></h1>
       <nav>
         <ul className="flex list-none items-center gap-8">
-          <li><Link to="/" className='text-white text-lg no-underline hover:text-[#95ff00] hover:uppercase'>Home</Link></li>
-          <li><Link to="/jogos" className='text-white text-lg no-underline hover:text-[#95ff00] hover:uppercase'>Jogos</Link></li>
-          <li><Link to="/contato" className='text-white text-lg no-underline hover:text-[#95ff00] hover:uppercase'>Contato</Link></li>
-          <li><Link to="/login" className='text-white text-lg no-underline hover:text-[#95ff00] hover:uppercase'>Login</Link></li>
+          <li><Link to="/" className='text-white text-lg no-underline hover:text-[#95ff00] hover:uppercase transition-all duration-300'>Home</Link></li>
+          <li><Link to="/jogos" className='text-white text-lg no-underline hover:text-[#95ff00] hover:uppercase transition-all duration-300'>Jogos</Link></li>
+          <li><Link to="/contato" className='text-white text-lg no-underline hover:text-[#95ff00] hover:uppercase transition-all duration-300'>Contato</Link></li>
+          <li><Link to="/login" className='text-white text-lg no-underline hover:text-[#95ff00] hover:uppercase transition-all duration-300'>Login</Link></li>
         </ul>
       </nav>
     </header>
