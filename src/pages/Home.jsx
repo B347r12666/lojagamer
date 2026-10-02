@@ -1,12 +1,16 @@
 import GameCard from '../components/GameCard'
 import img from '../assets/img.jpg'
+import laufey from '../assets/laufey.jpeg'
+import cod from '../assets/cod.jpg'
+import gta from '../assets/gta4.jpg'
+import witcher from '../assets/theWitcher.jpg' 
 
 const Home = () => {
   const jogos = [
-    { id: 1, titulo: "Jogo 1", preco: "R$200", img: img },
-    { id: 1, titulo: "Jogo 2", preco: "R$300", img: img },
-    { id: 1, titulo: "Jogo 3", preco: "R$400", img: img },
-    { id: 1, titulo: "Jogo 4", preco: "R$500", img: img },
+    { id: 1, titulo: "God of War Laufey", preco: "R$200", img: laufey },
+    { id: 1, titulo: " Call of Duty: Modern Warfare 4", preco: "R$300", img: cod },
+    { id: 1, titulo: "Grand Theft Auto VI", preco: "R$400", img: gta },
+    { id: 1, titulo: " The Witcher 6", preco: "R$500", img: witcher },
   ]
   return (
     <main className="px-[5%] mt-10 mb-16 grow">
